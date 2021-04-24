@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_block_dirt",
-    "path": "sprites/spr_block_dirt/spr_block_dirt.yy",
+    "name": "spr_block_grass",
+    "path": "sprites/spr_block_grass/spr_block_grass.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_block_dirt",
+  "name": "obj_block_grass",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -2,11 +2,14 @@
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"glo_enums","path":"scripts/glo_enums/glo_enums.yy",},"order":1,},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":16,},
     {"id":{"name":"obj_block_base","path":"objects/obj_block_base/obj_block_base.yy",},"order":0,},
+    {"id":{"name":"spr_reticule","path":"sprites/spr_reticule/spr_reticule.yy",},"order":3,},
     {"id":{"name":"glo_player","path":"scripts/glo_player/glo_player.yy",},"order":0,},
     {"id":{"name":"obj_block_dirt","path":"objects/obj_block_dirt/obj_block_dirt.yy",},"order":1,},
     {"id":{"name":"obj_game_control","path":"objects/obj_game_control/obj_game_control.yy",},"order":0,},
+    {"id":{"name":"spr_block_grass","path":"sprites/spr_block_grass/spr_block_grass.yy",},"order":2,},
+    {"id":{"name":"obj_block_grass","path":"objects/obj_block_grass/obj_block_grass.yy",},"order":2,},
+    {"id":{"name":"spr_block_dirt","path":"sprites/spr_block_dirt/spr_block_dirt.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
