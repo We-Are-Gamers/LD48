@@ -9,7 +9,12 @@ for(var i = 0; i < 256; ++i) {
 			
 			var block;
 			if(i == 3) {
-				block = instance_create_layer(_x, _y, "Instances", obj_block_grass);
+				if(j > 2) {
+					block = instance_create_layer(_x, _y, "Instances", obj_block_grass);
+				}
+				else {
+					block = instance_create_layer(_x, _y, "Instances", obj_block_shop_floor);
+				}
 			}
 			else {
 				block = instance_create_layer(_x, _y, "Instances", obj_block_dirt);

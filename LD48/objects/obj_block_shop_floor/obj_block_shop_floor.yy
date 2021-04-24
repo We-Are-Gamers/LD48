@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_block_grass",
-    "path": "sprites/spr_block_grass/spr_block_grass.yy",
+    "name": "spr_shop_floor",
+    "path": "sprites/spr_shop_floor/spr_shop_floor.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,15 +31,14 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"type","path":"objects/obj_block_base/obj_block_base.yy",},"objectId":{"name":"obj_block_base","path":"objects/obj_block_base/obj_block_base.yy",},"value":"enum_block_types.dirt","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"energy_cost","path":"objects/obj_block_base/obj_block_base.yy",},"objectId":{"name":"obj_block_base","path":"objects/obj_block_base/obj_block_base.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"breakable","path":"objects/obj_block_base/obj_block_base.yy",},"objectId":{"name":"obj_block_base","path":"objects/obj_block_base/obj_block_base.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Blocks",
     "path": "folders/Objects/Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_block_grass",
+  "name": "obj_block_shop_floor",
   "tags": [],
   "resourceType": "GMObject",
 }
