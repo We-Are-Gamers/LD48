@@ -1,3 +1,5 @@
+//randomize();
+
 level_grid = ds_list_create();
 
 for(var i = 0; i < 256; ++i) {
@@ -18,6 +20,13 @@ for(var i = 0; i < 256; ++i) {
 			}
 			else {
 				block = instance_create_layer(_x, _y, "Instances", obj_block_dirt);
+				
+				var spawn_gem = floor(random(10));
+				if(spawn_gem == 9) {
+					with(block) {
+						has_gem = true;
+					}
+				}
 			}
 			
 			ds_list_add(row, block);

@@ -1,0 +1,1 @@
+global.gravity = 1;

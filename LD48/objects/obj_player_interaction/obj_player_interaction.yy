@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_player_interaction",
+    "path": "sprites/spr_player_interaction/spr_player_interaction.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,19 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":40,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controls",
-    "path": "folders/Objects/Controls.yy",
+    "name": "Player",
+    "path": "folders/Objects/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_game_control",
+  "name": "obj_player_interaction",
   "tags": [],
   "resourceType": "GMObject",
 }

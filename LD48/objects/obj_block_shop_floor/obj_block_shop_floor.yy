@@ -11,7 +11,7 @@
     "name": "obj_block_base",
     "path": "objects/obj_block_base/obj_block_base.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
