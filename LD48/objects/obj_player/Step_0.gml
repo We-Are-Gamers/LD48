@@ -1,5 +1,11 @@
 if(global.energy <= 0) {
 	global.energy = max_energy;
+	
+	scr_unrender_all();
+	game_control.low_rendered_row = 0;
+	game_control.high_rendered_row = 15;
+	scr_render_set(0, 16);
+	
 	x = 96;
 	y = 160;
 }

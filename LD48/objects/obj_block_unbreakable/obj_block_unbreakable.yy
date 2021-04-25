@@ -38,7 +38,7 @@
     "path": "folders/Objects/Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_block_shop_floor",
+  "name": "obj_block_unbreakable",
   "tags": [],
   "resourceType": "GMObject",
 }
