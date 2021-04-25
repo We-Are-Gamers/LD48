@@ -21,7 +21,9 @@ function scr_world_gen() {
 				if(spawn_gem == 9) {
 					block = new Block(enum_block_types.dirt, true);
 				}
-				block = new Block(enum_block_types.dirt, false);
+				else {
+					block = new Block(enum_block_types.dirt, false);
+				}
 				 //instance_create_layer(_x, _y, "Instances", obj_block_dirt);
 			}
 			

@@ -1,4 +1,8 @@
 function scr_render_row(row) {
+	if(ds_map_exists(global.visible_blocks_by_row, row)) {
+		return;
+	}
+	
 	var visible_blocks_by_col = ds_map_create();
 	for(var j = 0; j < 16; ++j) {
 		var _x = 64 * j;
@@ -7,7 +11,7 @@ function scr_render_row(row) {
 		block_location[0] = j;
 		block_location[1] = row;
 		
-		block_data = ds_list_find_value(ds_list_find_value(global.level_grid, row), j);
+		var block_data = ds_list_find_value(ds_list_find_value(global.level_grid, row), j);
 		
 		var block;
 		switch(block_data.block_type) {
@@ -24,12 +28,13 @@ function scr_render_row(row) {
 				block = -1;
 				break;
 		}
-		
-		with(block) {
-			if(other.block_data.gem == true) {
+		if(block_data.gem == true) {
+			with(block) {
 				has_gem = true;
 			}
-			
+		}
+		
+		with(block) {
 			grid_x = j;
 			grid_y = row;
 		}

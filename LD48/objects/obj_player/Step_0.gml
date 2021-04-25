@@ -1,13 +1,14 @@
-if(global.energy <= 0) {
-	global.energy = max_energy;
-	
-	scr_unrender_all();
-	game_control.low_rendered_row = 0;
-	game_control.high_rendered_row = 15;
-	scr_render_set(0, 16);
+if(global.energy <= 0) {	
+	with(game_control) {
+		event_user(0);
+	}
 	
 	x = 96;
 	y = 160;
+	
+	with(game_control) {
+		event_user(1);
+	}
 }
 
 // physics
@@ -16,7 +17,10 @@ var key_right = keyboard_check(ord("D"));
 var key_jump = keyboard_check_pressed(vk_space);
 
 hsp = (key_right - key_left) * walk_speed;
-vsp += global.gravity;
+
+if(vsp <= 10) {
+	vsp += global.gravity;
+}
 
 if(place_meeting(x, y + 1, obj_collision_control) && key_jump) {
 	vsp = jump_speed;
