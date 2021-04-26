@@ -21,6 +21,9 @@ function scr_render_row(row) {
 			case enum_block_types.grass:
 				block = instance_create_layer(_x, _y, "Instances", obj_block_grass);
 				break;
+			case enum_block_types.iron:
+				block = instance_create_layer(_x, _y, "Instances", obj_block_iron);
+				break;
 			case enum_block_types.unbreakable:
 				block = instance_create_layer(_x, _y, "Instances", obj_block_unbreakable);
 				break;

@@ -3,6 +3,9 @@ if(global.energy <= 0) {
 		event_user(0);
 	}
 	
+	last_x = x;
+	last_y = y;
+	
 	x = 96;
 	y = 160;
 	

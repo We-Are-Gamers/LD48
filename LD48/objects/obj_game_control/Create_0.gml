@@ -1,4 +1,4 @@
-//randomize();
+randomize();
 
 scr_world_gen();
 low_rendered_row = 0;

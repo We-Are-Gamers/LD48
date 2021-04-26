@@ -7,7 +7,7 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 5,
+  "bbox_left": 3,
   "bbox_right": 61,
   "bbox_top": 2,
   "bbox_bottom": 62,
@@ -27,21 +27,25 @@
     {"compositeImage":{"FrameId":{"name":"cc478803-ce52-4ef2-95cf-64f28e3cb390","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"cc478803-ce52-4ef2-95cf-64f28e3cb390","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},"LayerId":{"name":"0a9981fb-c50c-4b44-99d2-5493a015211f","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_npc_shopkeeper","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},"resourceVersion":"1.0","name":"cc478803-ce52-4ef2-95cf-64f28e3cb390","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ec14f941-7ad3-41ad-a9df-e0a3bd038928","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ec14f941-7ad3-41ad-a9df-e0a3bd038928","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},"LayerId":{"name":"0a9981fb-c50c-4b44-99d2-5493a015211f","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_npc_shopkeeper","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},"resourceVersion":"1.0","name":"ec14f941-7ad3-41ad-a9df-e0a3bd038928","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_npc_shopkeeper","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b38f749d-6fcd-41ec-9986-7c3d777f1aee","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc478803-ce52-4ef2-95cf-64f28e3cb390","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"82ccb109-39c5-4161-8425-e69bf527557a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ec14f941-7ad3-41ad-a9df-e0a3bd038928","path":"sprites/spr_npc_shopkeeper/spr_npc_shopkeeper.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

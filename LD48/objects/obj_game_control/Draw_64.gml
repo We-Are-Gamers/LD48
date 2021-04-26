@@ -1,4 +1,11 @@
-draw_text(100, 40, string(low_row));
-draw_text(100, 60, string(high_row));
-draw_text(100, 80, string(low_rendered_row));
-draw_text(100, 100, string(high_rendered_row));
+if(saved) {
+	draw_text(10, 10, "saved!");
+}
+if(loaded) {
+	draw_text(10, 10, "loaded!");
+}
+
+draw_text(950, 20, "esc:");
+draw_text(950, 35, "save");
+draw_text(950, 55, "tab:");
+draw_text(950, 70, "load");

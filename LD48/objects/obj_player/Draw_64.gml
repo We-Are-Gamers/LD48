@@ -1,10 +1,21 @@
-draw_text(500, 20, "energy : " + string(global.energy));
-draw_text(500, 40, "money : "+ string(global.money));
+draw_rectangle_color(790, 20, 940, 120, c_black, c_black, c_black, c_black, false);
+draw_rectangle_color(790, 20, 940, 120, c_white, c_white, c_white, c_white, true);
+draw_text(800, 20, "energy : " + string(global.energy));
+draw_text(800, 40, "gems : "+ string(global.money));
 
-var size = ds_map_size(global.inventory);
-var key = ds_map_find_first(global.inventory);
+var size = enum_block_types.length;
 
-for(var i = 0; i < size; ++i) {
-	draw_text(500, 60 + 20 * i, string(key) + " : " + string(ds_map_find_value(global.inventory, key)));
-	key = ds_map_find_next(global.inventory, key);
+var j = 0;
+for(var i = enum_block_types.iron; i < size; ++i) {
+	var type_as_string;
+	switch(i) {
+		case enum_block_types.iron:
+			type_as_string = "iron";
+			break;
+		case enum_block_types.gold:
+			type_as_string = "gold";
+			break;
+	}
+	draw_text(800, 80 + 20 * j, type_as_string + " : " + string(ds_map_find_value(global.inventory, i)));
+	++j;
 }

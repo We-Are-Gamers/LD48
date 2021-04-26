@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_interaction",
-    "path": "sprites/spr_player_interaction/spr_player_interaction.yy",
+    "name": "spr_player_interaction_small",
+    "path": "sprites/spr_player_interaction_small/spr_player_interaction_small.yy",
   },
   "solid": false,
   "visible": true,
