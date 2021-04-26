@@ -1,4 +1,4 @@
-if(global.has_return) {
+if(global.has_return && !global.paused) {
 	with(game_control) {
 		event_user(3);
 	}

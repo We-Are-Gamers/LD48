@@ -20,13 +20,13 @@ if(talking) {
 		draw_set_color(c_white);
 	}
 	
-	draw_text(200, 100, "4. 10 iron = -.25 mining energy cost");
-	draw_text(200, 120, "5. 50 iron = -1.5 mining energy cost (what a deal!)");
+	draw_text(200, 100, "4. 10 iron = -.1 mining energy cost");
+	draw_text(200, 120, "5. 50 iron = -.6 mining energy cost (what a deal!)");
 	
 	if(global.mine_range == 2) {
 		draw_set_color(c_gray);
 	}
-	draw_text(200, 140, "6. 100 gold = increase interaction range (2)");
+	draw_text(200, 140, "6. 250 gold = increase interaction range (2)");
 	if(global.mine_range == 2) {
 		draw_set_color(c_white);
 	}

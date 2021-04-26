@@ -1,7 +1,9 @@
 draw_rectangle_color(790, 20, 940, 120, c_black, c_black, c_black, c_black, false);
 draw_rectangle_color(790, 20, 940, 120, c_white, c_white, c_white, c_white, true);
+
 draw_text(800, 20, "energy : " + string(global.energy));
-draw_text(800, 40, "gems : "+ string(global.money));
+draw_text(800, 40, "depth : " + string(_depth));
+draw_text(800, 60, "gems : "+ string(global.money));
 
 var size = enum_block_types.length;
 

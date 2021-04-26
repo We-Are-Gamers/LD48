@@ -1,1 +1,1 @@
-loaded = false;
+global.loaded = false;

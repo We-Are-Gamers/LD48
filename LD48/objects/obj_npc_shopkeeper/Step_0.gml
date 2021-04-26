@@ -24,20 +24,20 @@ if(talking) {
 		var iron = ds_map_find_value(global.inventory, enum_block_types.iron);
 		if(iron >= 10) {
 			ds_map_set(global.inventory, enum_block_types.iron, iron - 10);
-			global.mining_modifier -= .25;
+			global.mining_modifier -= .1;
 		}
 	}
 	if(keyboard_check_pressed(ord(string(enum_shop_options.iron50)))) {
 		var iron = ds_map_find_value(global.inventory, enum_block_types.iron);
 		if(iron >= 50) {
 			ds_map_set(global.inventory, enum_block_types.iron, iron - 50);
-			global.mining_modifier -= 1.25;
+			global.mining_modifier -= .6;
 		}
 	}
-	if(keyboard_check_pressed(ord(string(enum_shop_options.gold100)))) {
+	if(keyboard_check_pressed(ord(string(enum_shop_options.gold250)))) {
 		var gold = ds_map_find_value(global.inventory, enum_block_types.gold);
-		if(gold >= 100) {
-			ds_map_set(global.inventory, enum_block_types.gold, gold - 100);
+		if(gold >= 250) {
+			ds_map_set(global.inventory, enum_block_types.gold, gold - 250);
 			global.mine_range += 1;
 		}
 		

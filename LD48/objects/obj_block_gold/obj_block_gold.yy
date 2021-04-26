@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"type","path":"objects/obj_block_base/obj_block_base.yy",},"objectId":{"name":"obj_block_base","path":"objects/obj_block_base/obj_block_base.yy",},"value":"enum_block_types.gold","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"energy_cost","path":"objects/obj_block_base/obj_block_base.yy",},"objectId":{"name":"obj_block_base","path":"objects/obj_block_base/obj_block_base.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"energy_cost","path":"objects/obj_block_base/obj_block_base.yy",},"objectId":{"name":"obj_block_base","path":"objects/obj_block_base/obj_block_base.yy",},"value":"200","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Blocks",

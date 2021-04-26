@@ -1,1 +1,1 @@
-saved = false;
+global.saved = false;

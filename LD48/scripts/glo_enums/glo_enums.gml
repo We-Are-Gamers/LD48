@@ -9,7 +9,7 @@ enum enum_block_types {
 
 enum enum_block_levels {
 	dirt = 0,
-	iron = 10,
+	iron = 20,
 	gold = 200,
 }
 
@@ -19,6 +19,6 @@ enum enum_shop_options {
 	gems1000,
 	iron10,
 	iron50,
-	gold100,
+	gold250,
 	gold500,
 }
